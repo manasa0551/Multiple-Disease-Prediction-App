@@ -33,10 +33,6 @@ with st.sidebar:
 # Diabetes Prediction Page
 if (selected == 'Diabetes Prediction'):
     
-    # Customized Icons
-    image = Image.open('dia.jpg')
-    st.image(image, channels='RGB', output_format='auto')
-    
     # page title
     st.title('Disease Prediction using ML')
     
